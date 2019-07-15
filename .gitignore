@@ -1,0 +1,54 @@
+﻿################################################################################
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+/.vs/*
+/packages/*
+
+/excelAzureBackend/obj/*
+/excelAzureBackend/packages/*
+/excelAzureBackend/.vs/*
+/excelAzureBackend/Properties/*
+/excelAzureBackend/appsettings.json
+/excelAzureBackend/instance.csproj.user
+/excelAzureBackend/bin/*
+
+/excelAzureClientNative/obj/*
+/excelAzureClientNative/packages/*
+/excelAzureClientNative/.vs/*
+/excelAzureClientNative/appsettings.json
+/excelAzureClientNative/instance.csproj.user
+/excelAzureClientNative/bin/*
+
+/excelAzureStore/appsettings.json
+/excelAzureStore/appsettings.json

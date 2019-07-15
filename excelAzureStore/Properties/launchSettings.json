@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "excelAzureStore": {
+      "commandName": "Project",
+      "commandLineArgs": "vm 1 usd"
+    }
+  }
+}

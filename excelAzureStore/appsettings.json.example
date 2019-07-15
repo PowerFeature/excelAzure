@@ -1,0 +1,40 @@
+{
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+
+
+  "ApplicationInsights": {
+    "InstrumentationKey": "[insert app insights key here]"
+  },
+
+  "CalculatorUrls": {
+    "mdisk": "https://azure.microsoft.com/api/v2/pricing/managed-disks/calculator/?culture=en-us&discount=mosp&currency=",
+    "vm_ri0": "https://azure.microsoft.com/api/v2/pricing/virtual-machines-base/calculator/?culture=en-us&discount=mosp&currency=",
+    "vm_ri1": "https://azure.microsoft.com/api/v2/pricing/virtual-machines-base-one-year/calculator/?culture=en-us&discount=mosp&currency=",
+    "vm_ri3": "https://azure.microsoft.com/api/v2/pricing/virtual-machines-base-three-year/calculator/?culture=en-us&discount=mosp&currency="
+
+  },
+
+
+  "BlobStorageSettings": {
+    "DefaultConnection": "",
+    "blobConnectionString": "",
+    "containerName": "azuredata",
+    "blobUri": ""
+  }
+
+
+
+
+}

@@ -1,0 +1,46 @@
+{
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+
+
+  "ApplicationInsights": {
+    "InstrumentationKey": "[insert app insights key here]"
+  },
+
+  "CosmosDBSettings": {
+    "EndpointUri": "[insert cosmos DB endpoint here, only needed if you need to store data for historic solutions]",
+    "PrimaryKey": "[insert cosmos DB api key here, only needed if you need to store data for historic solutions]",
+    "databaseName": "[insert Cosmos DB DB name here, only needed if you need to store data for historic solutions]"
+
+  },
+  "CalculatorUrls": {
+    "mdisk": "https://azure.microsoft.com/api/v2/pricing/managed-disks/calculator/?culture=en-us&discount=mosp&currency=",
+    "vm_ri0": "https://azure.microsoft.com/api/v2/pricing/virtual-machines-base/calculator/?culture=en-us&discount=mosp&currency=",
+    "vm_ri1": "https://azure.microsoft.com/api/v2/pricing/virtual-machines-base-one-year/calculator/?culture=en-us&discount=mosp&currency=",
+    "vm_ri3": "https://azure.microsoft.com/api/v2/pricing/virtual-machines-base-three-year/calculator/?culture=en-us&discount=mosp&currency="
+
+  },
+
+
+  "BlobStorageSettings": {
+    "DefaultConnection": "",
+    "blobConnectionString": "",
+    "containerName": "azuredata",
+    "blobUri": ""
+  }
+
+
+
+
+}
